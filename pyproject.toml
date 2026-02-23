@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "git_ignore"
+version = "0.0.1"
+description = "Git ignore creation management"
+authors = [
+  { name="Keith Henry Nambale" }
+  ]
+dependencies = []
