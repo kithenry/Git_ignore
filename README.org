@@ -11,3 +11,11 @@
   - Can be installed as a package
   - Creates .gitignore across all folders in project
   - Reading .ignore items from externally provided txt file
+
+
+* Installation
+  - Clone this repo and cd into cloned directory
+  - run
+  ```
+  pip install dist/git_ignore-0.0.1-py3-none-any.whl
+  ```
