@@ -1,0 +1,13 @@
+* Description
+  A script to speed up .gitingore file creation across projects
+
+
+* Features supported
+  - Creates .gitignore file in folder where its called if it does not exits yet.
+  - Updates .gitignore file with new extensions of file patterns
+  to ignore
+
+* Features still under creation
+  - Can be installed as a package
+  - Creates .gitignore across all folders in project
+
