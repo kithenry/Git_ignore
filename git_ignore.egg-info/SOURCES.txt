@@ -1,0 +1,8 @@
+pyproject.toml
+git_ignore/__init__.py
+git_ignore/git_ignore.py
+git_ignore.egg-info/PKG-INFO
+git_ignore.egg-info/SOURCES.txt
+git_ignore.egg-info/dependency_links.txt
+git_ignore.egg-info/entry_points.txt
+git_ignore.egg-info/top_level.txt

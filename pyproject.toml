@@ -10,3 +10,7 @@ authors = [
   { name="Keith Henry Nambale" }
   ]
 dependencies = []
+
+[project.scripts]
+git_ignore = "git_ignore.git_ignore:main"
+

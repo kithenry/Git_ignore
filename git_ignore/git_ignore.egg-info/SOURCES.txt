@@ -4,4 +4,5 @@ src/main.py
 src/git_ignore.egg-info/PKG-INFO
 src/git_ignore.egg-info/SOURCES.txt
 src/git_ignore.egg-info/dependency_links.txt
+src/git_ignore.egg-info/entry_points.txt
 src/git_ignore.egg-info/top_level.txt

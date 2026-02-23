@@ -2,7 +2,7 @@
 # Add all extensions mentioned to it.
 
 import os
-
+import argparse
 
 updates = ['.gitignore',
             '*~',
@@ -43,7 +43,17 @@ def update_ignore_file(current_items, updates):
     update_list = set(current_items)
     return update_list
 
-if __name__ == '__main__':
+
+def create_or_update():
     current_items = get_or_create_ignore_file()
     update_list = update_ignore_file(current_items, updates)
     write_to_file(".gitignore", update_list)
+
+def main():
+    parser = argparse.ArgumentParser(description="Git_ignore management utility")
+    parser.add_argument("action", help="Action to run. Default: Run -- Create or update ignore file")
+    args = parser.parse_args()
+
+    if args.action == "run":
+        create_or_update()
+    
