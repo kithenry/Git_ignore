@@ -16,6 +16,6 @@
 * Installation
   - Clone this repo and cd into cloned directory
   - run
-  ```
-  pip install dist/git_ignore-0.0.1-py3-none-any.whl
-  ```
+  #+begin_src sh
+    pip install dist/git_ignore-0.0.1-py3-none-any.whl
+  #+end_src 
