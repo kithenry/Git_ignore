@@ -9,7 +9,6 @@
 
 * Features still under creation
   - Can be installed as a package
-  - Creates .gitignore across all folders in project
   - Reading .ignore items from externally provided txt file
 
 
